@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean class="com.learn.Hibernet.SpringProject.Student" id="st">
+	<property name="rollno" value="13"></property>
+	<property name="name" value="jayanth"></property>
+	<property name="age" value="22"></property>
+
+</bean>
+<bean class="com.learn.Hibernet.SpringProject.JavaTeacher" id="jt">
+	<property name="teacher_id" value="2343"></property>
+	<property name="teacher_name" value="4563"></property>
+</bean>
+
+<bean class="com.learn.Hibernet.SpringProject.SqlTeacher" id="sqt">
+	<property name="teacher_id" value="2343"></property>
+	<property name="teacher_name" value="4563"></property>
+</bean>
+
+<bean class="com.learn.Hibernet.SpringProject.PythonTeacher" id="pt">
+	<property name="teacher_id" value="2343"></property>
+	<property name="teacher_name" value="4563"></property>
+</bean>
+
+
+</beans>
