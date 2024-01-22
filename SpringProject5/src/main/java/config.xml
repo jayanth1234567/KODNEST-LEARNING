@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean class="com.learn.Spring.SpringProject5.Car" id="car1" autowire="byName">
+
+
+</bean>
+
+<bean class="com.learn.Spring.SpringProject5.Car" id="car2" autowire="byType">
+
+
+</bean>
+
+<bean class="com.learn.Spring.SpringProject5.Engine" id="eng">
+
+	<property name="eng_no" value="13579"></property>
+	<property name="eng_type" value="petrol"></property>
+	
+</bean>
+
+</beans>

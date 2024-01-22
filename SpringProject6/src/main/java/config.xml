@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean class="com.learn.Spring.SpringProject6.University" id="u1" autowire="byName"></bean>
+	
+	<bean class="com.learn.Spring.SpringProject6.Professor" id="prof">
+		<property name="pr_id" value="86789"></property>
+		<property name="pr_name" value="Jayanth krishna"></property>
+		<property name="pr_subject" value="java"></property>
+	</bean>
+	
+	<bean class="com.learn.Spring.SpringProject6.Professor" id="prof2">
+		<property name="pr_id" value="56667"></property>
+		<property name="pr_name" value="surya prabha"></property>
+		<property name="pr_subject" value="python"></property>
+	</bean>
+	
+	<bean class="com.learn.Spring.SpringProject6.Professor" id="prof3">
+		<property name="pr_id" value="23567"></property>
+		<property name="pr_name" value="janardhana rao"></property>
+		<property name="pr_subject" value="physics"></property>
+	</bean>
+
+</beans>
